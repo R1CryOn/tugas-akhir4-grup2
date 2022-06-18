@@ -35,16 +35,22 @@ button.addEventListener("click", function (name) {
 
       if (backgroundImage == "Clouds") {
         document.body.style.backgroundImage = "url('img/Clouds.jpg')";
+        document.body.style.backgroundSize = "100%";
       } else if (backgroundImage == "Clear") {
         document.body.style.backgroundImage = "url('img/Clear.jpg')";
+        document.body.style.backgroundSize = "100%";
       } else if (backgroundImage == "Thunderstorm") {
         document.body.style.backgroundImage = "url('img/Thunderstorm.jpg')";
+        document.body.style.backgroundSize = "100%";
       } else if (backgroundImage == "Drizzle") {
         document.body.style.backgroundImage = "url('img/Drizzle.jpg')";
+        document.body.style.backgroundSize = "100%";
       } else if (backgroundImage == "Rain") {
         document.body.style.backgroundImage = "url('img/Rain.jpg')";
+        document.body.style.backgroundSize = "100%";
       } else if (backgroundImage == "Snow") {
         document.body.style.backgroundImage = "url('img/Snow.jpg')";
+        document.body.style.backgroundSize = "100%";
       } else {
         document.body.style.backgroundColor = "white";
       }
