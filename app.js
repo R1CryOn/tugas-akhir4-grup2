@@ -28,10 +28,10 @@ button.addEventListener("click", function (name) {
       let iconHtml =
         "<img src='http://openweathermap.org/img/w/" + iconValue + ".png'>";
 
-      main.innerHTML = nameValue + iconHtml;
-      desc.innerHTML = "Desc - " + descValue;
-      temp.innerHTML = "Temp - " + tempValue;
-      wind.innerHTML = "Wind Speed - " + windValue + " KM/H";
+      main.innerHTML = "City : "+nameValue + iconHtml;
+      desc.innerHTML = "Condition - " + descValue;
+      temp.innerHTML = "Temperature - " + tempValue;
+      wind.innerHTML = "Wind Speed - " + windValue + " km/h";
 
       if (backgroundImage == "Clouds") {
         document.body.style.backgroundImage = "url('img/Clouds.jpg')";
